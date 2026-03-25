@@ -36,3 +36,5 @@ Hello DevOps using Jenkins!
 
 ## Notes
 This project demonstrates a minimal DevOps setup including CI/CD, containerization, and basic infrastructure setup.
+The application is deployed on an EC2 instance using Docker and Jenkins.
+Since this is a test environment, the server may not be running continuously.
