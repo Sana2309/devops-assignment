@@ -1,27 +1,38 @@
 # DevOps Assignment
 
 ## Overview
-This project demonstrates a basic DevOps pipeline setup.
+This project demonstrates a basic DevOps pipeline using Jenkins, Docker, and GitHub.
 
 ## Application
-- Simple Node.js web application
+- Simple Node.js application
 - Runs on port 8080
+- Displays: Hello DevOps using Jenkins!
+
+## CI/CD Pipeline
+- Jenkins is used for CI/CD
+- Pipeline stages:
+  - Build Docker Image
+  - Run Docker Container
 
 ## Docker
-- Application is containerized using Docker
-- Dockerfile created
+- Application containerized using Docker
+- Image name: devops-app
 
-## CI/CD
-- Implemented using GitHub Actions
-- Pipeline triggers on code push
-- Builds Docker image
+## Output
+Application deployed successfully.
 
-## Infrastructure as Code
-- Terraform used
-- EC2 instance defined
+Access:
+http://localhost:9090
 
-## Monitoring
-- Can be implemented using Prometheus and Grafana
+Response:
+Hello DevOps using Jenkins!
+
+## Tools Used
+- Jenkins
+- Docker
+- GitHub
+- MobaXterm
+- Terraform (basic config)
 
 ## Notes
-This project demonstrates basic DevOps practices for a simple application.
+This project demonstrates a minimal DevOps setup including CI/CD, containerization, and basic infrastructure setup.
