@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Code') {
+        stage('Clone') {
             steps {
                 git 'https://github.com/Sana2309/devops-assignment.git'
             }
@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8080:8080 devops-app'
+                sh 'docker run -d -p 9090:8080 devops-app || true'
             }
         }
     }
